@@ -1,0 +1,15 @@
+If X=Paper Y=Rock Z=Scissors
+
+Show 1 = Player 1 
+Show 2 = Player 2
+
+1 game 
+If show 1 =X and show 2= x then null and repeat
+If show 1 =Y and show 2= Y then null and repeat
+If show 1 =Z and show 2= Z then null and repeat
+
+If show 1=Y and show 2=X then show 2 = win
+other variations here 
+
+If show 1 has 2 wins then  
+
