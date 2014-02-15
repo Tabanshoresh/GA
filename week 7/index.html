@@ -1,0 +1,95 @@
+<html>
+<head>
+	<title>Responsive Design</title>
+	<style>
+	* {box-sizing:border-box;}
+	header,
+	.hero,
+	div {
+			border:2px solid black;
+			height:50px;
+			padding:10px;
+	}
+	nav a {
+		display:inline-block;
+		width:70px;
+		height:15px;
+		border:1px solid red;
+		padding:10px;
+	}
+	nav-icon {
+		display:none;
+		float:right;
+		width:50px;
+		height:40px;
+		border:1px solid green;
+		padding:10px;
+	}
+	.hero {
+		margin:10px;
+		height:100px;
+	}
+	.box {
+		float:left;
+		width:100px;
+	}
+	@media only screen and (max-width:800px) {
+		
+	}
+	.box:last-child {
+		border:2px solid red;
+	}
+	section {
+		width:500px;
+		clear:both;
+		margin:10px;
+		border:2px solid blue;
+	}
+	section div {
+		float:left;
+		width:100px;
+		height:100px;
+		margin:10px;
+	}
+	nav a {
+		display:block;
+		margin:5px;
+	}
+	.cf:before,
+	.cf:after {
+			content: " ";
+			display: table;
+	}
+	.cf:after {
+			clear: both;
+	}
+
+
+	</style>
+</head>
+<body>
+	<header>
+		<nav class="main-nav">
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+
+			<i class="nav-icon"></i>
+		</nav>
+	</header>
+
+	<div class="hero"></div>
+
+	<div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div>
+	<section class="cf">
+		<div></div>
+		<div></div>
+		<div></div>
+	</section>
+
+</body>
+</html>
